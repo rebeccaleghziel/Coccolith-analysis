@@ -1,4 +1,4 @@
-# Coccolith-analysis
+# Coccolith crystals analysis
 
 In my research I collected 4D datasets consisting of a 2D image (real space) where each pixel has a 2D image (diffraction space) associated to it. The real space image consists of crystals in different orientations while the diffraction space image consists of diffraction peaks and is important to determine the crystallographic orientation. In the lab we have a code that processes the diffraction images and saves important values in a .JSON file. I will use this dataset for this python project. 
 The project consists of two main parts:
