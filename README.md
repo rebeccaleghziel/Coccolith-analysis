@@ -4,11 +4,11 @@ In my research I collected 4D datasets consisting of a 2D image (real space) whe
 The project consists of two main parts:
 
 Part 1: Segmentation of the real space image
-We input a .JSON file containing a list of peaks for each pixel of the real space image.
-1.	Transform the JSON file into a 2D matrix where each entry contains the list of peaks for the specific pixel.
-2.	Select neighboring regions in which the list of peaks in the .JSON file are the same within a margin of error and assign to a segment.
-3.	Average the peaks belonging to a segment and use them for orientation analysis.
-4.	Plot the 2D real space image color coded where each segment of the image corresponds to a specific color.
+1.   We input a .JSON file containing a list of peaks for each pixel of the real space image.
+2.   Transform the JSON file into a 2D matrix where each entry contains the list of peaks for the specific pixel.
+3.   Select neighboring regions in which the list of peaks in the .JSON file are the same within a margin of error and assign to a segment.
+4.   Average the peaks belonging to a segment and use them for orientation analysis.
+5.   Plot the 2D real space image color coded where each segment of the image corresponds to a specific color.
 
 Part 2: Representation of the orientation of the segments using a stereogram
 Stereograms are a useful tool for crystallography since they allow to represent a 3D orientation of a crystal in 2D. The main idea behind it, is to project the vectors representing the x, y, z axis of a crystal on top of a stereogram that is a grid containing information on the orientation angles of the vectors.  We will implement the following functions:
